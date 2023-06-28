@@ -1,14 +1,13 @@
-# Ivan Solovey
+# **Ivan Solovey**
 
-photo:
-![Моё фото]('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpRWMmhdZR82GUCkWccw1Pc4_m4N1MLS9f1w&usqp=CAU')
+![Моё фото](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpRWMmhdZR82GUCkWccw1Pc4_m4N1MLS9f1w&usqp=CAU)
 
 ***
 
 ### Контакты
-* Почта: l3aho98@gmail.com
-* Телефон: +7 (654) 321-09-87
-* Телеграм: @telegramtest
+* **Почта**: l3aho98@gmail.com
+* **Телефон**: +7 (654) 321-09-87
+* **Телеграм**: @telegramtest
 
 ***
 
@@ -25,9 +24,9 @@ photo:
 ***
 
 ### Примеры кода
-> Наверное, это самое сложное что я решал на codewars, так что приложу его.
 
 '''
+Наверное, это самое сложное что я решал на codewars, так что приложу его.
 def sudoku(puzzle):
     def filter_row(puzzle):
         for y in range(len(puzzle)):
@@ -45,8 +44,6 @@ def sudoku(puzzle):
                         puzzle[y][x] = puzzle[y][x].pop()
         return puzzle
 
-    
-
     def filter_col(puzzle):
         for x in range(len(puzzle)):
             tmp = []
@@ -62,8 +59,6 @@ def sudoku(puzzle):
                     if len(puzzle[y][x]) == 1:
                         puzzle[y][x] = puzzle[y][x].pop()
         return puzzle
-
-
 
     def filter_square(puzzle, px, py):
         tmp = []
