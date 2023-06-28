@@ -25,8 +25,7 @@
 
 ### Примеры кода
 
-'''
-Наверное, это самое сложное что я решал на codewars, так что приложу его.
+```Python
 def sudoku(puzzle):
     def filter_row(puzzle):
         for y in range(len(puzzle)):
@@ -98,7 +97,7 @@ def sudoku(puzzle):
             for j in range(3):
                 puzzle = filter_square(puzzle, i, j)
     return puzzle
-'''
+```
 
 ***
 
