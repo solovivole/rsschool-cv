@@ -1,1 +1,1 @@
-# rsschool-cv
+https://solovivole.github.io/rsschool-cv/cv
